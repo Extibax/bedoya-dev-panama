@@ -7,12 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- Link Font Montserrat -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
     <!-- Link Animated Headlines Lib -->
     <link rel="stylesheet" href="lib/Animated_headline/jquery.animatedheadline.css">
     <!-- Link Bootstrap -->
     <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
         integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
+    <!-- Link FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- Link Styles -->
     <link rel="stylesheet" href="public/styles/style.css">
     <!-- Link Loader -->
@@ -42,10 +45,11 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarItems">
                         <div class="navbar-nav ml-auto">
-                            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                            <a class="nav-item nav-link" href="#">About</a>
-                            <a class="nav-item nav-link" href="#">Works</a>
-                            <a class="nav-item nav-link" href="#">Contact</a>
+                            <a class="nav-item nav-link active" href="#home">Home <span
+                                    class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link" href="#about">About</a>
+                            <a class="nav-item nav-link" href="#works">Works</a>
+                            <a class="nav-item nav-link" href="#contanct">Contact</a>
                         </div>
                     </div>
                 </div>
@@ -53,9 +57,9 @@
             <!-- End Nav -->
 
             <!-- Start Landing -->
-            <div class="banner-area" id="home">
+            <div class="landing" id="home">
                 <div id="particles-js"></div>
-                <div class="banner-text">
+                <div class="landing-text">
                     <h3>I'm Juan Bedoya</h3>
 
                     <h1 class="ah-headline">
@@ -65,6 +69,7 @@
                             <b>Back-End Developer</b>
                         </span>
                     </h1>
+                    <a href="#about">View about me <i class="fas fa-arrow-down"></i></a>
                 </div>
             </div>
             <!-- End Landing -->
@@ -73,9 +78,76 @@
     <!-- End Header -->
 
     <!-- Start About -->
-    <main>
-        About Me
-    </main>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-info">
+                        <img src="public/img/JuanBedoya.jpg" alt="Juan Bedoya Image Profile">
+                        <h3>Juan Bedoya</h3>
+                        <p class="profile-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa consequatur quos dolore
+                            ratione
+                            id
+                            laudantium cum dolorem ullam vitae rem reiciendis accusantium quaerat exercitationem rerum,
+                            nisi
+                            nobis, cupiditate voluptates fuga?
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about-skills">
+                        <div class="skill-title">
+                            <h3>Knowledges In</h3>
+                            Labels: <span class="learning-color">Learning</span> - <span
+                                class="normal-color">Normal</span> - <span class="special-color">Special</span>
+                        </div>
+                        <div class="skills">
+                            <div class="skill special">
+                                HTML5
+                            </div>
+                            <div class="skill">
+                                CSS3
+                            </div>
+                            <div class="skill">
+                                Bootstrap 4
+                            </div>
+                            <div class="skill special">
+                                JavaScript
+                            </div>
+                            <div class="skill">
+                                JQuery
+                            </div>
+                            <div class="skill">
+                                POO (OOP)
+                            </div>
+                            <div class="skill special">
+                                PHP
+                            </div>
+                            <div class="skill learning">
+                                Laravel
+                            </div>
+                            <div class="skill learning">
+                                NodeJS
+                            </div>
+                            <div class="skill">
+                                MySQL
+                            </div>
+                            <div class="skill">
+                                Git
+                            </div>
+                            <div class="skill">
+                                Ubuntu
+                            </div>
+                            <div class="skill">
+                                API's
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- End About -->
 
     <!-- Script JQuery -->

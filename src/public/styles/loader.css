@@ -20,13 +20,13 @@
     text-transform: uppercase;
     font-size: 15rem;
     color: rgba(0, 0, 0, 0.1);
-    background-image: url('../img/bg_black_compressed.png');
+    background-image: url('../img/best_bg_red.png');
     background-size: auto;
     background-repeat: repeat-x;
     background-clip: text;
     -webkit-background-clip: text;
 
-    animation: animate 5s linear infinite
+    animation: animate 3s linear infinite
 }
 
 @keyframes animate {
