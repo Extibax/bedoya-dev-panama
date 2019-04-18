@@ -22,8 +22,8 @@ header {
     /* background-image: url('../img/art_black_bg.jpg'); */
     background-image: url('../img/action-blur-close-up-735911.jpg');
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
     position: relative;
