@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background: #FFF;
+    color: #FFF;
+}
+
+.bg-transparent {
+    background-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+.banner-area {
+    background-image: url('../src/public/img/action-blur-close-up-735911.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+.banner-area::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    content: '';
+}
+
+canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.banner-table {
+    display: table;
+    margin: 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.banner-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.welcome-text .intro h3 {
+    color: #FFF;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.intro h1 {
+    color: #FFF;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.ah-headline.clip .ah-words-wrapper::after {
+    background-color: #FFF;
+}
+
+main {
+    height: 100vh;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+main h3 {
+    align-self: center;
+}

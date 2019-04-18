@@ -8,7 +8,7 @@ $(document).ready(function () {
 		$('.loader').remove();
 	}, 2000);
 
-	$('.landing').animatedHeadline({
+	$('.banner-text').animatedHeadline({
 		animationType: 'clip'
 	});
 
