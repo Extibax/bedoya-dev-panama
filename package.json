@@ -1,0 +1,21 @@
+{
+  "name": "Extibax-Portfolio-V2",
+  "version": "1.0.0",
+  "description": "This is Extibax Portfolio V2, The development of this portfolio will begin, In order to start accumulating correctly the personal projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Extibax/Extibax-Portfolio-V2.git"
+  },
+  "keywords": [],
+  "author": "Juan Bedoya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Extibax/Extibax-Portfolio-V2/issues"
+  },
+  "homepage": "https://github.com/Extibax/Extibax-Portfolio-V2#readme",
+  "dependencies": {}
+}

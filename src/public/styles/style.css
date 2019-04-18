@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background: #111111;
+    position: absolute;
+    color: #FFF;
+}
+
+.bg-transparent {
+    background-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+header {
+    /* background-image: url('../img/art_black_bg.jpg'); */
+    background-image: url('../img/action-blur-close-up-735911.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+
+.landing {
+    font-size: 2px;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    user-select: none;
+}
+
+canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.content-text {
+    position: relative;
+    text-align: center;
+    transform: translateY(150%);
+}
+
+.content-text h3 {
+    margin: 0;
+}
+
+/* main {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+} */
