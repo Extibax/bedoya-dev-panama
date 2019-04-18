@@ -14,16 +14,19 @@ $(document).ready(function () {
 		animationType: 'clip'
 	});
 
-	let navbar = $('.navbar')[0];
-
     /* Hace que el menu toggler button se ancle en la pantalla al empezar a scrollear */
+	let navbar = $('.navbar')[0];
     $(this).scroll(function () {
         if (window.pageYOffset > 200) {
             navbar.classList.add("fixed-navbar");
         } else {
             navbar.classList.remove("fixed-navbar");
         }
-    });
+	});
+	
+	$('#btn-menu-toggler').click(function() {
+		$('.navbar').toggleClass("bg-white");
+	});
 
 	/* var sections      = $('section');
 	var navbar        =	$('#nav');

@@ -23,10 +23,17 @@ body {
 .navbar {
     font-weight: 500;
     user-select: none;
+    transition: all 0.5ms ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
 }
 
 .bg-transparent {
-    background-color: rgba(255, 255, 255, 0.25) !important;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.bg-white {
+    background-color: #FFF !important;
 }
 
 .navbar-brand:hover {
@@ -35,9 +42,9 @@ body {
 
 .fixed-navbar {
     background-color: #FFF !important;
-    transition: all 0.5s ease-out;
+    /* transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
-    -webkit-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out; */
 }
 
 .fixed-navbar.navbar {
@@ -94,6 +101,11 @@ canvas {
     text-align: center;
     align-content: center;
     transform: translateY(150%);
+    font-weight: 400;
+}
+
+.landing-text h1 {
+    font-weight: 400;
 }
 
 .landing-text a {
@@ -204,3 +216,14 @@ canvas {
     background-color: transparent;
 }
 /* End About */
+
+
+@media screen and (max-width: 500px) {
+    .landing-text h3 {
+        font-size: 20px;
+    }
+
+    .landing-text .ah-headline {
+        font-size: 25px;
+    }
+}
