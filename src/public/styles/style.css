@@ -95,6 +95,7 @@ canvas {
 }
 
 .landing-text {
+    display: -webkit-flex;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,6 +156,7 @@ canvas {
 }
 
 .about-info {
+    display: -webkit-flex;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -173,6 +175,34 @@ canvas {
     font-weight: 500;
     color: #af0000;
     margin: 20px 0 20px 0;
+}
+
+.about-info .social-media {
+    list-style: none;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.about-info .social-media li {
+    margin-right: 10px;
+}
+
+.about-info .social-media .linkedin-link a {
+    color: #2963b7;
+}
+
+.about-info .social-media .github-link a {
+    color: #292c32;
+}
+
+.about-info .social-media .instagram-link a {
+    color: #e40062;
+}
+
+.about-info .social-media .twitter-link a {
+    color: #4085f7;
 }
 
 .about-skills {
@@ -230,6 +260,7 @@ canvas {
 }
 
 .about {
+    display: -webkit-flex;
     display: flex;
     flex-direction: column
 }
