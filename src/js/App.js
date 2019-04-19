@@ -28,6 +28,16 @@ $(document).ready(function () {
 		$('.navbar').toggleClass("bg-white");
 	});
 
+	$('.owl-carousel').owlCarousel({
+		items: 4,
+		loop: true,
+		margin: 10,
+		nav: true,
+		URLhashListener:true
+	});
+
+	$('#modal').iziModal();
+
 	/* var sections      = $('section');
 	var navbar        =	$('#nav');
 	var navbarHeight  = navbar.height();
