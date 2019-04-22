@@ -19,7 +19,7 @@ if (isset($_POST['formData'])) {
 
         $mail->Subject = 'Hey extibax! New message from extibax.com';
 
-        $mail->Body = 'From:' . $fullname . ' Her email:' . $email . ' Her message' . $message;
+        $mail->Body = 'From: ' . $fullname . ' Her email: ' . $email . ' Her message: ' . $message;
 
         if ($mail->send()) {
             echo "1";
