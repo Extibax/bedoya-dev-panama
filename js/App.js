@@ -62,7 +62,13 @@ $(document).ready(function () {
 		if (fullname && email && message) {
 			console.log(formData);
 			$.post('php/email.php', { formData }, (res) => {
-				console.log(res);
+				if (res == "1") {
+					swal("¡Thank you so much!", "¡I'll responde as soon as I can!", "success");
+					$('#form')[0].reset();
+					
+				} else {
+					swal("¡OMG!", "¡Something is wrong with this form, Contact me for other way, Please!", "error");
+				}
 			});
 		}
 	});

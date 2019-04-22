@@ -22,9 +22,9 @@ if (isset($_POST['formData'])) {
         $mail->Body = 'From:' . $fullname . ' Her email:' . $email . ' Her message' . $message;
 
         if ($mail->send()) {
-            echo 1;
+            echo "1";
         } else {
-            echo 0;
+            echo "0";
         }
     } catch (Exception $e) {
         echo $e->errorMessage();
