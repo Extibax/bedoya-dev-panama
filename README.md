@@ -6,16 +6,16 @@ Este portafolio es el update a mi anterior portafolio, El cual fue una de las pr
 Con este nuevo portafolio, Tengo la meta de centralizar un poco mejor mis proyectos, Y asi poder mostrar correctamente mis conocimientos a empleadores o personas que se dedican a este maravillo mundo de la programacion!
 
 ### Lenguages, Technologies & Libraries Used
-*HTML5
-*CSS3
-*Bootstrap 4.3.1
-*Font Awesome 5.8.1
-*AOS
-*AnimatedHeadlineJs
-*ParticlesJs
-*SmoothScrollJs
-*JavaScript
-*JQuery
-*PHP
-*Composer
-*PHPMailer
+* HTML5
+* CSS3
+* Bootstrap 4.3.1
+* Font Awesome 5.8.1
+* AOS
+* AnimatedHeadlineJs
+* ParticlesJs
+* SmoothScrollJs
+* JavaScript
+* JQuery
+* PHP
+* Composer
+* PHPMailer
