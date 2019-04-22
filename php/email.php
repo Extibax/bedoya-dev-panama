@@ -13,13 +13,13 @@ if (isset($_POST['formData'])) {
     $message = $_POST['formData']['message'];
 
     try {
-        $mail->setFrom('extibax@extibax.com');
+        $mail->setFrom('extibax@extibax.com', 'Extibax.com');
 
         $mail->addAddress('extibax@gmail.com', 'Extibax');
 
         $mail->Subject = 'Hey extibax! New message from extibax.com';
 
-        $mail->Body = $fullname . ' ' . $email . ' ' . $message;
+        $mail->Body = 'From:' . $fullname . ' Her email:' . $email . ' Her message' . $message;
 
         if ($mail->send()) {
             echo 1;
