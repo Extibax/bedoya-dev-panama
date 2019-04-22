@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Link Font Montserrat -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+    <!-- Link AnimatedHeadlinesJs Lib -->
+    <link rel="stylesheet" href="lib/AnimateHeadlineJs/jquery.animatedheadline.css">
+    <!-- Link Bootstrap -->
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
+        integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
+    <!-- Link FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Link Loader -->
+    <link rel="stylesheet" href="public/styles/loader.css">
+    <!-- Link AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Link Styles -->
+    <link rel="stylesheet" href="public/styles/style.css">
+
+    <title>Extibax.inc</title>
+</head>
+
+<body data-spy="scroll" data-target="#navbar">
+
+    <!-- Start Loader -->
+    <!-- <div class="loader">
+        <h6>E</h6>
+    </div> -->
+    <!-- End Loader -->
+
+    <!-- Start Header -->
+    <header>
+        <div class="showcase">
+            <!-- Start Nav -->
+            <nav class="navbar navbar-expand-md navbar-light bg-transparent fixed-top" id="navbar">
+                <div class="container">
+                    <a class="navbar-brand" href="#home">EXTIBAX</a>
+                    <button class="navbar-toggler" id="btn-menu-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarItems" aria-controls="navbarItems" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarItems">
+                        <div class="navbar-nav ml-auto">
+                            <a data-scroll class="nav-item nav-link active" href="#home">Home</a>
+                            <a data-scroll class="nav-item nav-link" href="#about">About</a>
+                            <a data-scroll class="nav-item nav-link" href="#works">Works</a>
+                            <a data-scroll class="nav-item nav-link" href="#contact">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- End Nav -->
+
+            <!-- Start Landing -->
+            <div class="landing" id="home">
+                <div id="particles-js"></div>
+                <div class="landing-text">
+                    <h3>¡Hello World, I'm <span class="red">Juan</span>!</h3>
+
+                    <h1 class="ah-headline">
+                        <span class="im">¡I'm </span>
+                        <span class="ah-words-wrapper">
+                            <b class="is-visible">Programmer!</b>
+                            <b>Web Developer!</b>
+                            <b class="special-color">Backend Developer!</b>
+                        </span>
+                    </h1>
+                    <a data-scroll href="#about" class="btn">View about me <i class="fas fa-arrow-down"></i></a>
+                </div>
+            </div>
+            <!-- End Landing -->
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-info" data-aos="fade-in" data-aos-delay="300">
+                        <img src="public/img/JuanBedoya.jpg" alt="Juan Bedoya Image Profile">
+                        <h3>Juan Bedoya</h3>
+                        <p class="profile-description">
+                            ¡Hi!, I'm a junior passionate Programmer, self-taught and a eternal
+                            apprentice, I like the moderns technologies and i'm in the way of the Back-End Developers,
+                            More than anything with the <span class="special-color"><b>PHP</b></span>, <span
+                                class="special-color"><b>JavaScript</b></span> and <span
+                                class="special-color"><b>SQL</b></span> programming lenguages! Thanks for looking about
+                            me, God bless you!.
+                        </p>
+                        <div>
+                            <ul class="social-media">
+                                <li class="linkedin-link">
+                                    <a href="https://www.linkedin.com/in/extibax/" target="_blank">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li class="github-link">
+                                    <a href="https://github.com/Extibax" target="_blank">
+                                        <i class="fab fa-github-square"></i>
+                                    </a>
+                                </li>
+                                <li class="instagram-link">
+                                    <a href="https://www.instagram.com/_sseebaass_/" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="twitter-link">
+                                    <a href="https://twitter.com/extibax" target="_blank">
+                                        <i class="fab fa-twitter-square"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about-skills" data-aos="fade-in" data-aos-delay="300">
+                        <div class="skill-title">
+                            <h3>Knowledges In</h3>
+                            Labels: <span class="learning-color">Learning</span> - <span
+                                class="normal-color">Normal</span> - <span class="special-color">Special</span>
+                        </div>
+                        <div class="skills">
+                            <div class="skill special">
+                                HTML5
+                            </div>
+                            <div class="skill">
+                                CSS3
+                            </div>
+                            <div class="skill">
+                                Bootstrap 4
+                            </div>
+                            <div class="skill special">
+                                JavaScript
+                            </div>
+                            <div class="skill special">
+                                JQuery
+                            </div>
+                            <div class="skill">
+                                POO (OOP)
+                            </div>
+                            <div class="skill learning">
+                                MVC
+                            </div>
+                            <div class="skill special">
+                                PHP
+                            </div>
+                            <div class="skill learning">
+                                Laravel
+                            </div>
+                            <div class="skill learning">
+                                NodeJS
+                            </div>
+                            <div class="skill special">
+                                MySQL
+                            </div>
+                            <div class="skill">
+                                Git
+                            </div>
+                            <div class="skill">
+                                Ubuntu
+                            </div>
+                            <div class="skill">
+                                API's
+                            </div>
+                        </div>
+                        <a data-scroll href="#works" class="btn">View my works <i class="fas fa-arrow-down"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Start Works -->
+    <section class="works" id="works">
+        <div class="container">
+            <h3>Works</h3>
+            <p>¡View my last works!</p>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card-deck" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card">
+                            <img src="public/img/Screenshot_2019-04-20_12-28-10.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    To Do List (CRUD)
+                                </h5>
+                                <h6>
+                                    Features:
+                                </h6>
+                                <div class="card-text mb-2">
+                                    Create, Read, Update & Delete Tasks
+                                </div>
+                                <h6>
+                                    Technologies:
+                                </h6>
+                                <div class="card-text features">
+                                    <div>HTML5</div>
+                                    <div>CSS3</div>
+                                    <div>Bootstrap 4.3.1</div>
+                                    <div>FontAwesome</div>
+                                    <div>JavaScript</div>
+                                    <div>JQuery 3.3.1</div>
+                                    <div>PHP</div>
+                                    <div>Composer</div>
+                                    <div>DotEnv</div>
+                                    <div>AlertifyJs</div>
+                                    <div>MySQL</div>
+                                </div>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#" target="_blank" class="card-link">View Repository</a>
+                                <a href="#" target="_blank" class="card-link">View Project Demo</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="public/img/Screenshot_2019-04-20_12-30-20.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Portfolio Customizable (Upload, Update Images)
+                                </h5>
+                                <h6>
+                                    Features:
+                                </h6>
+                                <div class="card-text mb-2">
+                                    Show your professional info, And update your texts and images each time do you want.
+                                </div>
+                                <h6>
+                                    Technologies:
+                                </h6>
+                                <div class="card-text features">
+                                    <div>HTML5</div>
+                                    <div>CSS3</div>
+                                    <div>Bootstrap 4.3.1</div>
+                                    <div>FontAwesome</div>
+                                    <div>JavaScript</div>
+                                    <div>JQuery 3.3.1</div>
+                                    <div>PHP</div>
+                                    <div>Composer</div>
+                                    <div>DotEnv</div>
+                                    <div>PDO</div>
+                                    <div>MySQL</div>
+                                    <div>Quill</div>
+                                    <div>AlertifyJs</div>
+                                    <div>SweetAlert</div>
+                                </div>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#" target="_blank" class="card-link">View Repository</a>
+                                <a href="#" target="_blank" class="card-link">View Project Demo</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="public/img/Screenshot_2019-04-20_17-39-26.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Be Programmer (CRUD)
+                                </h5>
+                                <h6>
+                                    Features:
+                                </h6>
+                                <div class="card-text mb-2">
+                                    Add your favorite links
+                                </div>
+                                <h6>
+                                    Technologies:
+                                </h6>
+                                <div class="card-text features">
+                                    <div>HTML5</div>
+                                    <div>CSS3</div>
+                                </div>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#" target="_blank" class="card-link">View Repository</a>
+                                <a href="#" target="_blank" class="card-link">View Project Demo</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="public/img/Screenshot_2019-04-20_12-28-10.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    To Do Manager
+                                </h5>
+                                <h6>
+                                    Features:
+                                </h6>
+                                <div class="card-text mb-2">
+                                    Create, Read, Update & Delete Tasks
+                                </div>
+                                <h6>
+                                    Technologies:
+                                </h6>
+                                <div class="card-text features">
+                                    <div>HTML5</div>
+                                    <div>CSS3</div>
+                                    <div>JavaScript</div>
+                                    <div>JQuery</div>
+                                    <div>PHP</div>
+                                    <div>MySQL</div>
+                                    <div>SQL</div>
+                                    <div>SQL</div>
+                                </div>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#" target="_blank" class="card-link">View Repository</a>
+                                <a href="#" target="_blank" class="card-link">View Project Demo</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="public/img/Screenshot_2019-04-20_12-28-10.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    To Do Manager
+                                </h5>
+                                <h6>
+                                    Features:
+                                </h6>
+                                <div class="card-text mb-2">
+                                    Create, Read, Update & Delete Tasks
+                                </div>
+                                <h6>
+                                    Technologies:
+                                </h6>
+                                <div class="card-text features">
+                                    <div>HTML5</div>
+                                    <div>CSS3</div>
+                                    <div>JavaScript</div>
+                                    <div>JQuery</div>
+                                    <div>PHP</div>
+                                    <div>MySQL</div>
+                                    <div>SQL</div>
+                                    <div>SQL</div>
+                                </div>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#" target="_blank" class="card-link">View Repository</a>
+                                <a href="#" target="_blank" class="card-link">View Project Demo</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="public/img/Screenshot_2019-04-20_12-28-10.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    To Do Manager
+                                </h5>
+                                <h6>
+                                    Features:
+                                </h6>
+                                <div class="card-text mb-2">
+                                    Create, Read, Update & Delete Tasks
+                                </div>
+                                <h6>
+                                    Technologies:
+                                </h6>
+                                <div class="card-text features">
+                                    <div>HTML5</div>
+                                    <div>CSS3</div>
+                                    <div>JavaScript</div>
+                                    <div>JQuery</div>
+                                    <div>PHP</div>
+                                    <div>MySQL</div>
+                                    <div>SQL</div>
+                                    <div>SQL</div>
+                                </div>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#" target="_blank" class="card-link">View Repository</a>
+                                <a href="#" target="_blank" class="card-link">View Project Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a data-scroll href="#contact" class="btn">Contact me <i class="fas fa-arrow-down"></i></a>
+    </section>
+    <!-- End Works -->
+
+    <!-- Start Contact -->
+    <footer class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <form id="form" method="POST" data-aos="zoom-in-up" data-aos-delay="300">
+                        <h3>Contact me</h3>
+                        <p>¡Let's work together!</p>
+                        <div class="form-group">
+                            <label for="fullname">Full name:</label>
+                            <input class="form-control" type="text" name="fullname" id="fullname"
+                                placeholder="¡Please type your name here!" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input class="form-control" type="email" name="email" id="email"
+                                placeholder="¡Please type your email here!" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea class="form-control" name="message" id="message"
+                                placeholder="¡Type the magical words!" cols="30" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-info">
+            <div class="copyright">
+                &copy; All Right Reserved By <a href="http://extibax.com/" target="_blank">Extibax inc</a> & Licenced by
+                <a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a> Web maked by Juan Bedoya (Extibax)
+            </div>
+            <div class="up" id="up">
+                <i class="fas fa-caret-up"></i>
+            </div>
+            <ul class="social-media">
+                <li class="linkedin-link">
+                    <a href="https://www.linkedin.com/in/extibax/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="github-link">
+                    <a href="https://github.com/Extibax" target="_blank">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </li>
+                <li class="instagram-link">
+                    <a href="https://www.instagram.com/_sseebaass_/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="twitter-link">
+                    <a href="https://twitter.com/extibax" target="_blank">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- End Contact -->
+
+    <!-- Script JQuery -->
+    <script src='http://code.jquery.com/jquery-3.3.1.min.js'
+        integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=' crossorigin='anonymous'></script>
+    <!-- Script Popper -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'
+        integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1' crossorigin='anonymous'>
+    </script>
+    <!-- Script Bootstrap -->
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'
+        integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous'>
+    </script>
+    <!-- Script AnimatedHeadlinesJs Lib -->
+    <script src="lib/AnimateHeadlineJs/jquery.animatedheadline.js"></script>
+    <!-- Script ParticleJs -->
+    <script src="lib/ParticlesJs/particles.min.js"></script>
+    <!-- Script Particles Config -->
+    <script src="lib/ParticlesJs/particle_config.js"></script>
+    <!-- Script AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Script SmoothScrollJs -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <!-- Script App -->
+    <script src="js/App.js"></script>
+
+</body>
+
+</html>
