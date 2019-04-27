@@ -20,6 +20,10 @@ body {
     background: #af0000;
 }
 
+.fa-star {
+    color: #af0000;
+}
+
 /* Start Navbar */
 .navbar {
     font-weight: 500;
