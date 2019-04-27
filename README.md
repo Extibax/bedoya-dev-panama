@@ -5,7 +5,7 @@ This is Extibax Portfolio V2, The development of this portfolio will begin, In o
 Este portafolio es el update a mi anterior portafolio, El cual fue una de las primeras paginas web que hice antes: https://github.com/Extibax/Extibax-Portfolio-V1
 Con este nuevo portafolio, Tengo la meta de centralizar un poco mejor mis proyectos, Y asi poder mostrar correctamente mis conocimientos a empleadores o personas que se dedican a este maravillo mundo de la programacion!
 
-### Lenguages, Technologies & Libraries Used
+### Languages, Technologies & Libraries Used
 * HTML5
 * CSS3
 * Bootstrap 4.3.1
