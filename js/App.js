@@ -43,6 +43,10 @@ $(document).ready(function () {
 		);
 	});
 
+	$('.nav-item').click(function() {
+		$('#navbarItems').collapse('hide');
+	});
+
 	new AOS.init({
 		once: true
 	});
