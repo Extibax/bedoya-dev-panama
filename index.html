@@ -1,580 +1,742 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- No Cache Meta Start -->
-    <meta http-equiv="Expires" content="0">
-    <meta http-equiv="Last-Modified" content="0">
-    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
-    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Last-Modified" content="0" />
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
     <!-- No Chache Meta End -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- Meta SEO -->
-    <meta name="description"
-        content="Extibax Portfolio, It will show you everything about me, My knowledge and the projects that I have done">
+    <meta
+      name="description"
+      content="Extibax Portfolio, It will show you everything about me, My knowledge and the projects that I have done"
+    />
     <!-- Meta Properties og -->
-    <meta property="og:type" content="portfolio">
-    <meta property="og:title" content="Extibax">
-    <meta property="og:description"
-        content="Extibax Portfolio, It will show you everything about me, My knowledge and the projects that I have done" />
-    <meta property="og:image" content="http://extibax.com/public/img/extibax_portfolio_screenshot.png">
-    <meta property='og:url' content="http://extibax.com/" />
-    <meta property="og:site_name" content="Extibax">
+    <meta property="og:type" content="portfolio" />
+    <meta property="og:title" content="Extibax" />
+    <meta
+      property="og:description"
+      content="Extibax Portfolio, It will show you everything about me, My knowledge and the projects that I have done"
+    />
+    <meta
+      property="og:image"
+      content="http://extibax.com/public/img/extibax_portfolio_screenshot.png"
+    />
+    <meta property="og:url" content="http://extibax.com/" />
+    <meta property="og:site_name" content="Extibax" />
     <!-- End Meta Properties og -->
-    <meta name="description"
-        content="Extibax Portfolio, It will show you everything about me, My knowledge and the projects that I have done">
+    <meta
+      name="description"
+      content="Extibax Portfolio, It will show you    justify-content: center; knowledge and the projects that I have done"
+    />
     <!-- Link Favicon -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <!-- Link Font Montserrat -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700"
+      rel="stylesheet"
+    />
     <!-- Link AnimatedHeadlinesJs Lib -->
-    <link rel="stylesheet" href="lib/AnimateHeadlineJs/jquery.animatedheadline.css">
+    <link
+      rel="stylesheet"
+      href="lib/AnimateHeadlineJs/jquery.animatedheadline.css"
+    />
     <!-- Link Bootstrap -->
-    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
-        integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <!-- Link FontAwesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
     <!-- Link Loader -->
-    <link rel="stylesheet" href="public/styles/loader.css">
+    <link rel="stylesheet" href="public/styles/loader.css" />
     <!-- Link AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Link Styles -->
-    <link rel="stylesheet" href="public/styles/style.css">
+    <link rel="stylesheet" href="public/styles/style.css" />
 
     <title>Extibax.inc</title>
-</head>
+  </head>
 
-<body data-spy="scroll" data-target="#navbar">
-
+  <body data-spy="scroll" data-target="#navbar">
     <!-- Start Loader -->
     <div class="loader">
-        <h6>E</h6>
+      <h6>E</h6>
     </div>
     <!-- End Loader -->
 
     <!-- Start Header -->
     <header>
-        <div class="showcase">
-            <!-- Start Nav -->
-            <nav class="navbar navbar-expand-md navbar-light bg-transparent fixed-top" id="navbar">
-                <div class="container">
-                    <a class="navbar-brand" href="#home">EXTIBAX</a>
-                    <button class="navbar-toggler" id="btn-menu-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarItems" aria-controls="navbarItems" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarItems">
-                        <div class="navbar-nav ml-auto">
-                            <a data-scroll class="nav-item nav-link active" href="#home">Home</a>
-                            <a data-scroll class="nav-item nav-link" href="#about">About</a>
-                            <a data-scroll class="nav-item nav-link" href="#works">Works</a>
-                            <a data-scroll class="nav-item nav-link" href="#contact">Contact</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            <!-- End Nav -->
-
-            <!-- Start Landing -->
-            <div class="landing" id="home">
-                <div id="particles-js"></div>
-                <div class="landing-text">
-                    <h3>¡Hello World, I'm <span class="red">Juan</span>!</h3>
-
-                    <h1 class="ah-headline">
-                        <span class="im">¡I'm </span>
-                        <span class="ah-words-wrapper">
-                            <b class="is-visible">Programmer!</b>
-                            <b>Web Developer!</b>
-                            <b class="special-color">Backend Developer!</b>
-                        </span>
-                    </h1>
-                    <a data-scroll href="#about" class="btn">View about me <i class="fas fa-arrow-down"></i></a>
-                </div>
+      <div class="showcase">
+        <!-- Start Nav -->
+        <nav
+          class="navbar navbar-expand-md navbar-light bg-transparent fixed-top"
+          id="navbar"
+        >
+          <div class="container">
+            <a class="navbar-brand" href="#home">EXTIBAX</a>
+            <button
+              class="navbar-toggler"
+              id="btn-menu-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarItems"
+              aria-controls="navbarItems"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarItems">
+              <div class="navbar-nav ml-auto">
+                <a data-scroll class="nav-item nav-link active" href="#home"
+                  >Home</a
+                >
+                <a data-scroll class="nav-item nav-link" href="#about">About</a>
+                <a data-scroll class="nav-item nav-link" href="#works">Works</a>
+                <a data-scroll class="nav-item nav-link" href="#contact"
+                  >Contact</a
+                >
+              </div>
             </div>
-            <!-- End Landing -->
+          </div>
+        </nav>
+        <!-- End Nav -->
+
+        <!-- Start Landing -->
+        <div class="landing" id="home">
+          <div id="particles-js"></div>
+          <div class="landing-text">
+            <h3>¡Hello World, I'm <span class="red">Juan</span>!</h3>
+
+            <h1 class="ah-headline">
+              <span class="im">¡I'm </span>
+              <span class="ah-words-wrapper">
+                <b class="is-visible">Programmer!</b>
+                <b>Web Developer!</b>
+                <b class="special-color">Backend Developer!</b>
+              </span>
+            </h1>
+            <a data-scroll href="#about" class="btn"
+              >View about me <i class="fas fa-arrow-down"></i
+            ></a>
+          </div>
         </div>
+        <!-- End Landing -->
+      </div>
     </header>
     <!-- End Header -->
 
     <!-- Start About -->
     <section class="about" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="about-info" data-aos="fade-in" data-aos-delay="300">
-                        <img src="public/img/JuanBedoya.jpg" alt="Juan Bedoya Image Profile">
-                        <h3>Juan Bedoya</h3>
-                        <p class="profile-description">
-                            ¡Hi!, I'm a Junior passionate Back-End Developer, Self-taught and a Eternal
-                            apprentice, I like the moderns technologies and I'm in the way of the Back-End Developers,
-                            More than anything with the <span class="special-color"><b>PHP</b></span>, <span
-                                class="special-color"><b>JavaScript</b></span> and <span
-                                class="special-color"><b>SQL</b></span> programming languages! Thanks for watching about
-                            me, God bless you!.
-                        </p>
-                        <div>
-                            <ul class="social-media">
-                                <li class="linkedin-link">
-                                    <a href="https://www.linkedin.com/in/extibax/" target="_blank">
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-                                </li>
-                                <li class="github-link">
-                                    <a href="https://github.com/Extibax" target="_blank">
-                                        <i class="fab fa-github-square"></i>
-                                    </a>
-                                </li>
-                                <li class="instagram-link">
-                                    <a href="https://www.instagram.com/_sseebaass_/" target="_blank">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li class="twitter-link">
-                                    <a href="https://twitter.com/extibax" target="_blank">
-                                        <i class="fab fa-twitter-square"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="about-skills" data-aos="fade-in" data-aos-delay="300">
-                        <div class="skill-title">
-                            <p>¿What can I offer to your Company/Startup?:</p>
-                            <h3>Knowledges In</h3>
-                            Labels: <span class="learning-color">Learning</span> - <span
-                                class="normal-color">Normal</span> - <span class="special-color">Special</span>
-                        </div>
-                        <div class="skills">
-                            <!-- Front-End -->
-                            <p class="my-2">Front-End</p>
-                            <div class="skill special">
-                                HTML5
-                            </div>
-                            <div class="skill">
-                                CSS3
-                            </div>
-                            <div class="skill special">
-                                JQuery
-                            </div>
-                            <div class="skill">
-                                Bootstrap 4
-                            </div>
-                            <div class="skill learning">
-                                React
-                            </div>
-                            <!-- Back-End -->
-                            <p class="my-2">Back-End</p>
-                            <div class="skill special">
-                                JavaScript
-                            </div>
-                            <div class="skill">
-                                OOP
-                            </div>
-                            <div class="skill learning">
-                                MVC
-                            </div>
-                            <div class="skill special">
-                                PHP
-                            </div>
-                            <div class="skill">
-                                NodeJS
-                            </div>
-                            <div class="skill learning">
-                                Express
-                            </div>
-                            <div class="skill">
-                                API's
-                            </div>
-                            <div class="skill">
-                                REST
-                            </div>
-                            <!-- Module Bundler & JavaScript Transpiler -->
-                            <p class="my-2">Module Bundler & JavaScript Transpiler</p>
-                            <div class="skill learning">
-                                Webpack
-                            </div>
-                            <div class="skill learning">
-                                Babel
-                            </div>
-                            <!-- Version Control & Code Hostings -->
-                            <p class="my-2">Version Control & Code Hostings</p>
-                            <div class="skill">
-                                Git
-                            </div>
-                            <div class="skill">
-                                GitHub
-                            </div>
-                            <!-- Data Bases -->
-                            <p class="my-2">Data Bases</p>
-                            <div class="skill special">
-                                SQL
-                            </div>
-                            <div class="skill special">
-                                MySQL
-                            </div>
-                            <div class="skill">
-                                MongoDB
-                            </div>
-                            <!-- Operative Systems -->
-                            <p class="my-2">Operative Systems</p>
-                            <div class="skill">
-                                Debian
-                            </div>
-                            <div class="skill">
-                                Fedora
-                            </div>
-                            <div class="skill">
-                                Ubuntu
-                            </div>
-                        </div>
-                        <a data-scroll href="#works" class="btn">View my works <i class="fas fa-arrow-down"></i></a>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-info" data-aos="fade-in" data-aos-delay="300">
+              <img
+                src="public/img/JuanBedoya.jpg"
+                alt="Juan Bedoya Image Profile"
+              />
+              <h3>Juan Bedoya</h3>
+              <p class="profile-description">
+                ¡Hi!, I'm a Junior passionate Full Stack Developer, Self-taught
+                and a Eternal apprentice, I like the moderns technologies and
+                I'm in the way of the Full Stack Developers, More than anything
+                with the <span class="special-color"><b>PHP</b></span
+                >, <span class="special-color"><b>JavaScript</b></span> and
+                <span class="special-color"><b>SQL</b></span> programming
+                languages! Thanks for watching about me, God bless you!.
+              </p>
+              <p>
+                <span class="special-color">
+                  <b>Full Stack Developer</b>
+                </span>
+                on
+                <a
+                  href="https://moveoventures.com/"
+                  target="_blank"
+                  class="special-color"
+                  ><b>Moveo Ventures</b></a
+                >
+              </p>
+              <div>
+                <ul class="social-media">
+                  <li class="linkedin-link">
+                    <a
+                      href="https://www.linkedin.com/in/extibax/"
+                      target="_blank"
+                    >
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li class="github-link">
+                    <a href="https://github.com/Extibax" target="_blank">
+                      <i class="fab fa-github-square"></i>
+                    </a>
+                  </li>
+                  <li class="instagram-link">
+                    <a
+                      href="https://www.instagram.com/_sseebaass_/"
+                      target="_blank"
+                    >
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li class="twitter-link">
+                    <a href="https://twitter.com/extibax" target="_blank">
+                      <i class="fab fa-twitter-square"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about-skills" data-aos="fade-in" data-aos-delay="300">
+              <div class="skill-title">
+                <p>¿What can I offer to your Company/Startup?:</p>
+                <h3>Knowledges In</h3>
+                Labels: <span class="learning-color">Learning</span> -
+                <span class="normal-color">Normal</span> -
+                <span class="special-color">Special</span>
+              </div>
+              <div class="skills">
+                <!-- Front-End -->
+                <p class="my-2">Front-End</p>
+                <div class="skill special">
+                  HTML5
+                </div>
+                <div class="skill">
+                  CSS3
+                </div>
+                <div class="skill special">
+                  JQuery
+                </div>
+                <div class="skill">
+                  Bootstrap 4
+                </div>
+                <div class="skill">
+                  React
+                </div>
+                <!-- Back-End -->
+                <p class="my-2">Back-End</p>
+                <div class="skill special">
+                  JavaScript
+                </div>
+                <div class="skill">
+                  OOP
+                </div>
+                <div class="skill">
+                  MVC
+                </div>
+                <div class="skill special">
+                  PHP
+                </div>
+                <div class="skill">
+                  NodeJS
+                </div>
+                <div class="skill learning">
+                  Express
+                </div>
+                <div class="skill">
+                  API's
+                </div>
+                <div class="skill">
+                  REST
+                </div>
+                <!-- Module Bundler & JavaScript Transpiler -->
+                <p class="my-2">Module Bundler & JavaScript Transpiler</p>
+                <div class="skill">
+                  Webpack
+                </div>
+                <div class="skill">
+                  Babel
+                </div>
+                <!-- Version Control & Code Hostings -->
+                <p class="my-2">Version Control & Code Hostings</p>
+                <div class="skill">
+                  Git
+                </div>
+                <div class="skill">
+                  GitHub
+                </div>
+                <!-- Data Bases -->
+                <p class="my-2">Data Bases</p>
+                <div class="skill special">
+                  SQL
+                </div>
+                <div class="skill special">
+                  MySQL
+                </div>
+                <div class="skill">
+                  MongoDB
+                </div>
+                <!-- Operative Systems -->
+                <p class="my-2">Operative Systems</p>
+                <div class="skill">
+                  Debian
+                </div>
+                <div class="skill">
+                  Fedora
+                </div>
+                <div class="skill">
+                  Ubuntu
+                </div>
+              </div>
+              <a data-scroll href="#works" class="btn"
+                >View my works <i class="fas fa-arrow-down"></i
+              ></a>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- End About -->
 
     <!-- Start Works -->
     <section class="works" id="works">
-        <div class="container">
-            <h3>Works</h3>
-            <p>¡View my last works!</p>
-            <p>Projects with <i class="far fa-star"></i>, Are ready</p>
-            <!-- <p>Currently I'm finishing all the projects, And then I'll put them correctly here. Written on: 23/04/19</p> -->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="card-deck" data-aos="zoom-in" data-aos-delay="300">
-                        <div class="card">
-                            <img src="public/img/todo_jquery_php.png" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    To Do List PHP <i class="far fa-star"></i>
-                                </h5>
-                                <h6>
-                                    Features:
-                                </h6>
-                                <div class="card-text mb-2">
-                                    Login(Sign In, Sign Up), ;Create ToDo's, Create categories, View ToDo's, Filter
-                                    ToDo's by category, Edit ToDo's, Delete ToDo's,
-                                </div>
-                                <h6>
-                                    Technologies Used:
-                                </h6>
-                                <div class="card-text features">
-                                    <div>HTML5</div>
-                                    <div>CSS3</div>
-                                    <div>Bootstrap 4.3.1</div>
-                                    <div>FontAwesome</div>
-                                    <div>JavaScript</div>
-                                    <div>JQuery 3.3.1</div>
-                                    <div>AJAX</div>
-                                    <div>PHP</div>
-                                    <div>Composer</div>
-                                    <div>DotEnv</div>
-                                    <div>AlertifyJs</div>
-                                    <div>MySQL</div>
-                                </div>
-                            </div>
-                            <div class="card-footer text-center">
-                                <a href="https://github.com/Extibax/To-Do-JQuery-PHP" target="_blank"
-                                    class="card-link">View Repository</a>
-                                <a href="http://extibax.com/Projects/To-Do-Extibax.inc/" target="_blank"
-                                    class="card-link">View Project Demo</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="public/img/customizable_portfolio_php_pdo_jquery.png" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    Portfolio CMS PHP <i class="far fa-star"></i>
-                                </h5>
-                                <h6>
-                                    Features:
-                                </h6>
-                                <div class="card-text mb-2">
-                                    Login(Sign In, Sign Up), Edit text, links and other text elements, Update images &
-                                    save in the Database
-                                    <br><br>
-                                    Show your professional info, And update your texts and images each time do you want.
-                                </div>
-                                <h6>
-                                    Technologies Used:
-                                </h6>
-                                <div class="card-text features">
-                                    <div>HTML5</div>
-                                    <div>CSS3</div>
-                                    <div>Bootstrap 4.3.1</div>
-                                    <div>FontAwesome</div>
-                                    <div>JavaScript</div>
-                                    <div>JQuery 3.3.1</div>
-                                    <div>AJAX</div>
-                                    <div>PHP</div>
-                                    <div>Composer</div>
-                                    <div>DotEnv</div>
-                                    <div>PDO</div>
-                                    <div>MySQL</div>
-                                    <div>Quill</div>
-                                    <div>AlertifyJs</div>
-                                    <div>SweetAlert</div>
-                                </div>
-                            </div>
-                            <div class="card-footer text-center">
-                                <a href="https://github.com/Extibax/Customizable-Portfolio" target="_blank"
-                                    class="card-link">View Repository</a>
-                                <a href="http://extibax.com/Projects/Customizable-Portfolio/" target="_blank"
-                                    class="card-link">View Project Demo</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="public/img/login-nodejs-mysql-passport.png" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    Login NodeJs <i class="far fa-star"></i>
-                                </h5>
-                                <h6>
-                                    Features:
-                                </h6>
-                                <div class="card-text mb-2">
-                                    Create users and encrypt the password with bcryptjs, Show flash messages, Login
-                                    users and Close sessions, Deployed on Heroku
-                                </div>
-                                <h6>
-                                    Technologies Used:
-                                </h6>
-                                <div class="card-text features">
-                                    <div>HTML5</div>
-                                    <div>CSS3</div>
-                                    <div>Bootstrap 4.3.1</div>
-                                    <div>JavaScript</div>
-                                    <div>NodeJs</div>
-                                    <div>Express</div>
-                                    <div>MySQL</div>
-                                    <div>Morgan</div>
-                                    <div>Nodemon</div>
-                                    <div>DotEnv</div>
-                                    <div>Handlebars</div>
-                                    <div>BcryptJs</div>
-                                    <div>Passport</div>
-                                    <div>Flash</div>
-                                </div>
-                            </div>
-                            <div class="card-footer text-center">
-                                <a href="https://github.com/Extibax/Login-NodeJs-MySQL-PassportJs" target="_blank"
-                                    class="card-link">
-                                    View Repository
-                                </a>
-                                <a href="https://login-nodejs-mysql-passport.herokuapp.com/signin" target="_blank"
-                                    class="card-link">
-                                    View Project Demo
-                                </a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="public/img/profile_manager_php_jquery.png" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    Profile Manager PHP <i class="far fa-star"></i>
-                                </h5>
-                                <h6>
-                                    Features:
-                                </h6>
-                                <div class="card-text mb-2">
-                                    You can create a profile, login and manage your personal
-                                    info, Like Profile Image, Or Bio text
-                                </div>
-                                <h6>
-                                    Technologies Used:
-                                </h6>
-                                <div class="card-text features">
-                                    <div>HTML5</div>
-                                    <div>CSS3</div>
-                                    <div>Bootstrap</div>
-                                    <div>JavaScript</div>
-                                    <div>FormData</div>
-                                    <div>JQuery</div>
-                                    <div>PHP</div>
-                                    <div>PDO</div>
-                                    <div>MySQL</div>
-                                    <div>SweetAlert</div>
-                                    <div>Timeago JQuery</div>
-                                </div>
-                            </div>
-                            <div class="card-footer text-center">
-                                <a href="https://github.com/Extibax/Profile-Manager-PHP-JQuery" target="_blank"
-                                    class="card-link">View Repository</a>
-                                <a href="http://extibax.com/Projects/Profile-Manager-PHP-JQuery/index.html"
-                                    target="_blank" class="card-link">View Project Demo</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="public/img/rest_api_nodejs_mongodb.png" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    REST API ES10 NodeJs MongoDB <i class="far fa-star"></i>
-                                </h5>
-                                <h6>
-                                    Features:
-                                </h6>
-                                <div class="card-text mb-2">
-                                    See technologies, Add technologies, Update technologies, Delete technologies,
-                                    The API is created with the REST rules,
-                                    The JavaScript code is transpiled with Babel, and the data is stored in MongoDB
-                                </div>
-                                <h6>
-                                    Technologies Used:
-                                </h6>
-                                <div class="card-text features">
-                                    <div>HTML5</div>
-                                    <div>CSS3</div>
-                                    <div>Bootstrap</div>
-                                    <div>JavaScript</div>
-                                    <div>ES10</div>
-                                    <div>JQuery</div>
-                                    <div>Babel</div>
-                                    <div>NodeJs</div>
-                                    <div>Express</div>
-                                    <div>MongoDB</div>
-                                    <div>Nodemon</div>
-                                    <div>EJS</div>
-                                    <div>Colors</div>
-                                </div>
-                            </div>
-                            <div class="card-footer text-center">
-                                <a href="https://github.com/Extibax/REST-API-NodeJs-MongoDB" target="_blank"
-                                    class="card-link">View
-                                    Repository</a>
-                                <a href="https://github.com/Extibax/REST-API-NodeJs-MongoDB/blob/master/README.md"
-                                    target="_blank" class="card-link">View Project
-                                    Demo</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="public/img/restapi_nodejs_mysql.png" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    REST API NodeJs MySQL <i class="far fa-star"></i>
-                                </h5>
-                                <h6>
-                                    Features:
-                                </h6>
-                                <div class="card-text mb-2">
-                                    CRUD users and stored with MySQL
-                                </div>
-                                <h6>
-                                    Technologies Used:
-                                </h6>
-                                <div class="card-text features">
-                                    <div>JavaScript</div>
-                                    <div>Babel</div>
-                                    <div>NodeJs</div>
-                                    <div>Express</div>
-                                    <div>Nodemon</div>
-                                    <div>MySQL</div>
-                                    <div>DotEnv</div>
-                                    <div>Colors</div>
-                                    <div>JSON</div>
-                                </div>
-                            </div>
-                            <div class="card-footer text-center">
-                                <a href="https://github.com/Extibax/REST-API-NodeJs-MySQL" target="_blank"
-                                    class="card-link">View
-                                    Repository</a>
-                                <a href="https://rest-api-nodejs-mysql.herokuapp.com/" target="_blank"
-                                    class="card-link">View Project
-                                    Demo</a>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <h3>Works</h3>
+        <p>¡View my last works!</p>
+        <p>Projects with <i class="far fa-star"></i>, Are ready</p>
+        <!-- <p>Currently I'm finishing all the projects, And then I'll put them correctly here. Written on: 23/04/19</p> -->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card-deck" data-aos="zoom-in" data-aos-delay="300">
+              <div class="card">
+                <img
+                  src="public/img/todo_jquery_php.png"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    To Do List PHP <i class="far fa-star"></i>
+                  </h5>
+                  <h6>
+                    Features:
+                  </h6>
+                  <div class="card-text mb-2">
+                    Login(Sign In, Sign Up), ;Create ToDo's, Create categories,
+                    View ToDo's, Filter ToDo's by category, Edit ToDo's, Delete
+                    ToDo's,
+                  </div>
+                  <h6>
+                    Technologies Used:
+                  </h6>
+                  <div class="card-text features">
+                    <div>HTML5</div>
+                    <div>CSS3</div>
+                    <div>Bootstrap 4.3.1</div>
+                    <div>FontAwesome</div>
+                    <div>JavaScript</div>
+                    <div>JQuery 3.3.1</div>
+                    <div>AJAX</div>
+                    <div>PHP</div>
+                    <div>Composer</div>
+                    <div>DotEnv</div>
+                    <div>AlertifyJs</div>
+                    <div>MySQL</div>
+                  </div>
                 </div>
+                <div class="card-footer text-center">
+                  <a
+                    href="https://github.com/Extibax/To-Do-JQuery-PHP"
+                    target="_blank"
+                    class="card-link"
+                    >View Repository</a
+                  >
+                  <a
+                    href="http://extibax.com/Projects/To-Do-Extibax.inc/"
+                    target="_blank"
+                    class="card-link"
+                    >View Project Demo</a
+                  >
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="public/img/customizable_portfolio_php_pdo_jquery.png"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Portfolio CMS PHP <i class="far fa-star"></i>
+                  </h5>
+                  <h6>
+                    Features:
+                  </h6>
+                  <div class="card-text mb-2">
+                    Login(Sign In, Sign Up), Edit text, links and other text
+                    elements, Update images & save in the Database
+                    <br /><br />
+                    Show your professional info, And update your texts and
+                    images each time do you want.
+                  </div>
+                  <h6>
+                    Technologies Used:
+                  </h6>
+                  <div class="card-text features">
+                    <div>HTML5</div>
+                    <div>CSS3</div>
+                    <div>Bootstrap 4.3.1</div>
+                    <div>FontAwesome</div>
+                    <div>JavaScript</div>
+                    <div>JQuery 3.3.1</div>
+                    <div>AJAX</div>
+                    <div>PHP</div>
+                    <div>Composer</div>
+                    <div>DotEnv</div>
+                    <div>PDO</div>
+                    <div>MySQL</div>
+                    <div>Quill</div>
+                    <div>AlertifyJs</div>
+                    <div>SweetAlert</div>
+                  </div>
+                </div>
+                <div class="card-footer text-center">
+                  <a
+                    href="https://github.com/Extibax/Customizable-Portfolio"
+                    target="_blank"
+                    class="card-link"
+                    >View Repository</a
+                  >
+                  <a
+                    href="http://extibax.com/Projects/Customizable-Portfolio/"
+                    target="_blank"
+                    class="card-link"
+                    >View Project Demo</a
+                  >
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="public/img/login-nodejs-mysql-passport.png"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Login NodeJs <i class="far fa-star"></i>
+                  </h5>
+                  <h6>
+                    Features:
+                  </h6>
+                  <div class="card-text mb-2">
+                    Create users and encrypt the password with bcryptjs, Show
+                    flash messages, Login users and Close sessions, Deployed on
+                    Heroku
+                  </div>
+                  <h6>
+                    Technologies Used:
+                  </h6>
+                  <div class="card-text features">
+                    <div>HTML5</div>
+                    <div>CSS3</div>
+                    <div>Bootstrap 4.3.1</div>
+                    <div>JavaScript</div>
+                    <div>NodeJs</div>
+                    <div>Express</div>
+                    <div>MySQL</div>
+                    <div>Morgan</div>
+                    <div>Nodemon</div>
+                    <div>DotEnv</div>
+                    <div>Handlebars</div>
+                    <div>BcryptJs</div>
+                    <div>Passport</div>
+                    <div>Flash</div>
+                  </div>
+                </div>
+                <div class="card-footer text-center">
+                  <a
+                    href="https://github.com/Extibax/Login-NodeJs-MySQL-PassportJs"
+                    target="_blank"
+                    class="card-link"
+                  >
+                    View Repository
+                  </a>
+                  <a
+                    href="https://login-nodejs-mysql-passport.herokuapp.com/signin"
+                    target="_blank"
+                    class="card-link"
+                  >
+                    View Project Demo
+                  </a>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="public/img/profile_manager_php_jquery.png"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Profile Manager PHP <i class="far fa-star"></i>
+                  </h5>
+                  <h6>
+                    Features:
+                  </h6>
+                  <div class="card-text mb-2">
+                    You can create a profile, login and manage your personal
+                    info, Like Profile Image, Or Bio text
+                  </div>
+                  <h6>
+                    Technologies Used:
+                  </h6>
+                  <div class="card-text features">
+                    <div>HTML5</div>
+                    <div>CSS3</div>
+                    <div>Bootstrap</div>
+                    <div>JavaScript</div>
+                    <div>FormData</div>
+                    <div>JQuery</div>
+                    <div>PHP</div>
+                    <div>PDO</div>
+                    <div>MySQL</div>
+                    <div>SweetAlert</div>
+                    <div>Timeago JQuery</div>
+                  </div>
+                </div>
+                <div class="card-footer text-center">
+                  <a
+                    href="https://github.com/Extibax/Profile-Manager-PHP-JQuery"
+                    target="_blank"
+                    class="card-link"
+                    >View Repository</a
+                  >
+                  <a
+                    href="http://extibax.com/Projects/Profile-Manager-PHP-JQuery/index.html"
+                    target="_blank"
+                    class="card-link"
+                    >View Project Demo</a
+                  >
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="public/img/rest_api_nodejs_mongodb.png"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    REST API ES10 NodeJs MongoDB <i class="far fa-star"></i>
+                  </h5>
+                  <h6>
+                    Features:
+                  </h6>
+                  <div class="card-text mb-2">
+                    See technologies, Add technologies, Update technologies,
+                    Delete technologies, The API is created with the REST rules,
+                    The JavaScript code is transpiled with Babel, and the data
+                    is stored in MongoDB
+                  </div>
+                  <h6>
+                    Technologies Used:
+                  </h6>
+                  <div class="card-text features">
+                    <div>HTML5</div>
+                    <div>CSS3</div>
+                    <div>Bootstrap</div>
+                    <div>JavaScript</div>
+                    <div>ES10</div>
+                    <div>JQuery</div>
+                    <div>Babel</div>
+                    <div>NodeJs</div>
+                    <div>Express</div>
+                    <div>MongoDB</div>
+                    <div>Nodemon</div>
+                    <div>EJS</div>
+                    <div>Colors</div>
+                  </div>
+                </div>
+                <div class="card-footer text-center">
+                  <a
+                    href="https://github.com/Extibax/REST-API-NodeJs-MongoDB"
+                    target="_blank"
+                    class="card-link"
+                    >View Repository</a
+                  >
+                  <a
+                    href="https://github.com/Extibax/REST-API-NodeJs-MongoDB/blob/master/README.md"
+                    target="_blank"
+                    class="card-link"
+                    >View Project Demo</a
+                  >
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="public/img/restapi_nodejs_mysql.png"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    REST API NodeJs MySQL <i class="far fa-star"></i>
+                  </h5>
+                  <h6>
+                    Features:
+                  </h6>
+                  <div class="card-text mb-2">
+                    CRUD users and stored with MySQL
+                  </div>
+                  <h6>
+                    Technologies Used:
+                  </h6>
+                  <div class="card-text features">
+                    <div>JavaScript</div>
+                    <div>Babel</div>
+                    <div>NodeJs</div>
+                    <div>Express</div>
+                    <div>Nodemon</div>
+                    <div>MySQL</div>
+                    <div>DotEnv</div>
+                    <div>Colors</div>
+                    <div>JSON</div>
+                  </div>
+                </div>
+                <div class="card-footer text-center">
+                  <a
+                    href="https://github.com/Extibax/REST-API-NodeJs-MySQL"
+                    target="_blank"
+                    class="card-link"
+                    >View Repository</a
+                  >
+                  <a
+                    href="https://rest-api-nodejs-mysql.herokuapp.com/"
+                    target="_blank"
+                    class="card-link"
+                    >View Project Demo</a
+                  >
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-        <a data-scroll href="#contact" class="btn">Contact me <i class="fas fa-arrow-down"></i></a>
+      </div>
+      <a data-scroll href="#contact" class="btn"
+        >Contact me <i class="fas fa-arrow-down"></i
+      ></a>
     </section>
     <!-- End Works -->
 
     <!-- Start Contact -->
     <footer class="contact" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <form id="form" method="POST" data-aos="zoom-in-up" data-aos-delay="300">
-                        <h3>Contact me</h3>
-                        <p>¡Let's work together!</p>
-                        <div class="form-group">
-                            <label for="fullname">Full name:</label>
-                            <input class="form-control" type="text" name="fullname" id="fullname"
-                                placeholder="¡Please type your name here!" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input class="form-control" type="email" name="email" id="email"
-                                placeholder="¡Please type your email here!" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message:</label>
-                            <textarea class="form-control" name="message" id="message"
-                                placeholder="¡Type the magical words!" cols="30" rows="5" required></textarea>
-                        </div>
-                        <div class="form-group">
-                            <button class="btn">Send</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <form
+              id="form"
+              method="POST"
+              data-aos="zoom-in-up"
+              data-aos-delay="300"
+            >
+              <h3>Contact me</h3>
+              <p>¡Let's work together!</p>
+              <div class="form-group">
+                <label for="fullname">Full name:</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  name="fullname"
+                  id="fullname"
+                  placeholder="¡Please type your name here!"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input
+                  class="form-control"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="¡Please type your email here!"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea
+                  class="form-control"
+                  name="message"
+                  id="message"
+                  placeholder="¡Type the magical words!"
+                  cols="30"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <button class="btn">Send</button>
+              </div>
+            </form>
+          </div>
         </div>
-        <div class="footer-info">
-            <div class="copyright">
-                &copy; All Right Reserved By <a href="http://extibax.com/" target="_blank">Extibax inc</a> & Licenced by
-                <a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a> Web maked by Juan Bedoya (Extibax)
-            </div>
-            <div class="up" id="up">
-                <i class="fas fa-caret-up"></i>
-            </div>
-            <ul class="social-media">
-                <li class="linkedin-link">
-                    <a href="https://www.linkedin.com/in/extibax/" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </li>
-                <li class="github-link">
-                    <a href="https://github.com/Extibax" target="_blank">
-                        <i class="fab fa-github-square"></i>
-                    </a>
-                </li>
-                <li class="instagram-link">
-                    <a href="https://www.instagram.com/_sseebaass_/" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </li>
-                <li class="twitter-link">
-                    <a href="https://twitter.com/extibax" target="_blank">
-                        <i class="fab fa-twitter-square"></i>
-                    </a>
-                </li>
-            </ul>
+      </div>
+      <div class="footer-info">
+        <div class="copyright">
+          &copy; All Right Reserved By
+          <a href="http://extibax.com/" target="_blank">Extibax inc</a> &
+          Licenced by
+          <a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a>
+          Web maked by Juan Bedoya (Extibax)
         </div>
+        <div class="up" id="up">
+          <i class="fas fa-caret-up"></i>
+        </div>
+        <ul class="social-media">
+          <li class="linkedin-link">
+            <a href="https://www.linkedin.com/in/extibax/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="github-link">
+            <a href="https://github.com/Extibax" target="_blank">
+              <i class="fab fa-github-square"></i>
+            </a>
+          </li>
+          <li class="instagram-link">
+            <a href="https://www.instagram.com/_sseebaass_/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li class="twitter-link">
+            <a href="https://twitter.com/extibax" target="_blank">
+              <i class="fab fa-twitter-square"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
     </footer>
     <!-- End Contact -->
 
     <!-- Script JQuery -->
-    <script src='http://code.jquery.com/jquery-3.3.1.min.js'
-        integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=' crossorigin='anonymous'></script>
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
     <!-- Script Popper -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'
-        integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1' crossorigin='anonymous'>
-    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
     <!-- Script Bootstrap -->
-    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'
-        integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous'>
-    </script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
     <!-- Script AnimatedHeadlinesJs Lib -->
     <script src="lib/AnimateHeadlineJs/jquery.animatedheadline.js"></script>
     <!-- Script ParticleJs -->
@@ -589,7 +751,5 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- Script App -->
     <script src="js/App.js"></script>
-
-</body>
-
+  </body>
 </html>
