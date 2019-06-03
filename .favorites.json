@@ -14,5 +14,21 @@
         "workspaceRoot": "/home/extibax/Desktop/eprezto",
         "workspacePath": "src/components/seguros/DTercerosForm.js",
         "id": "OWRj9i6SAQre1PUV"
+    },
+    {
+        "type": "File",
+        "name": "/home/extibax/Desktop/eprezto/src/containers/Seguros/segurosComponents/SegurosStepsDT.js",
+        "parent_id": null,
+        "workspaceRoot": "/home/extibax/Desktop/eprezto",
+        "workspacePath": "src/containers/Seguros/segurosComponents/SegurosStepsDT.js",
+        "id": "Uphc1KG2jRwqJfgP"
+    },
+    {
+        "type": "File",
+        "name": "/home/extibax/Desktop/eprezto/src/containers/Seguros/segurosComponents/index.js",
+        "parent_id": null,
+        "workspaceRoot": "/home/extibax/Desktop/eprezto",
+        "workspacePath": "src/containers/Seguros/segurosComponents/index.js",
+        "id": "p2Ywhb0oCSKOmV4X"
     }
 ]
