@@ -249,7 +249,7 @@ canvas {
 }
 
 .special-color {
-    color: #d39f06bd
+    color: #d39f06
 }
 
 .skill {
@@ -272,8 +272,8 @@ canvas {
 }
 
 .special {
-    background-color: #d39f06bd;
-    border: 1px solid #d39f06bd;
+    background-color: #d39f06;
+    border: 1px solid #d39f06;
 }
 
 .learning {
