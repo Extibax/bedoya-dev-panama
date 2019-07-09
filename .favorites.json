@@ -30,5 +30,37 @@
         "workspaceRoot": "/home/extibax/Desktop/eprezto",
         "workspacePath": "src/containers/Seguros/segurosComponents/index.js",
         "id": "p2Ywhb0oCSKOmV4X"
+    },
+    {
+        "type": "File",
+        "name": "/home/extibax/Desktop/eprezto/src/containers/App/App.js",
+        "parent_id": null,
+        "workspaceRoot": "/home/extibax/Desktop/eprezto",
+        "workspacePath": "src/containers/App/App.js",
+        "id": "Xn4c9CSAEdBTya8g"
+    },
+    {
+        "type": "File",
+        "name": "/home/extibax/Desktop/eprezto/src/containers/App/AppRouter.js",
+        "parent_id": null,
+        "workspaceRoot": "/home/extibax/Desktop/eprezto",
+        "workspacePath": "src/containers/App/AppRouter.js",
+        "id": "VDf2sMzrwl8toeau"
+    },
+    {
+        "type": "File",
+        "name": "/home/extibax/Desktop/eprezto/src/containers/Seguros/segurosComponents/IndexMainPageStyle.style.js",
+        "parent_id": null,
+        "workspaceRoot": "/home/extibax/Desktop/eprezto",
+        "workspacePath": "src/containers/Seguros/segurosComponents/IndexMainPageStyle.style.js",
+        "id": "9STcseCLZ7NUab8D"
+    },
+    {
+        "type": "File",
+        "name": "/home/extibax/Desktop/eprezto/src/components/seguros/FormularioDePago.js",
+        "parent_id": null,
+        "workspaceRoot": "/home/extibax/Desktop/eprezto",
+        "workspacePath": "src/components/seguros/FormularioDePago.js",
+        "id": "iFfyHOqjdYc0U9WN"
     }
 ]
