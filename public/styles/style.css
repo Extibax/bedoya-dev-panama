@@ -17,11 +17,11 @@ body {
 
 *::selection {
     color: #FFF;
-    background: #af0000;
+    background: #60bafa;
 }
 
 .fa-star {
-    color: #af0000;
+    color: #60bafa;
 }
 
 /* Start Navbar */
@@ -58,7 +58,7 @@ body {
 }
 
 .navbar-nav a.active {
-    color: #af0000 !important;
+    color: #60bafa !important;
 }
 
 .navbar-nav a.active::after {
@@ -66,7 +66,7 @@ body {
     width: 50%;
     display: block;
     margin: 0 auto;
-    border-bottom: 1px solid #af0000;
+    border-bottom: 1px solid #60bafa;
 }
 
 /* End Navbar */
@@ -112,7 +112,7 @@ canvas {
 }
 
 .red {
-    color: #af0000;
+    color: #60bafa;
 }
 
 .landing-text h3 {
@@ -134,7 +134,7 @@ canvas {
     padding: 10px 40px;
     margin-top: 60px;
     color: #FFF;
-    border: 2px solid #af0000;
+    border: 2px solid #60bafa;
     overflow: hidden;
     transition: all 1s ease;
     z-index: 999;
@@ -143,7 +143,7 @@ canvas {
 .btn::before {
     content: '';
     position: absolute !important;
-    background-color: #af0000;
+    background-color: #60bafa;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -199,7 +199,7 @@ canvas {
 
 .about-info h3 {
     font-weight: 500;
-    color: #af0000;
+    /* color: #60bafa; */
     margin: 20px 0 20px 0;
 }
 
@@ -245,15 +245,19 @@ canvas {
 }
 
 .learning-color {
-    color: #7781cc;
+    color: #60bafa;
 }
 
 .normal-color {
-    color: #af0000;
+    color: #60bafa;
 }
 
 .special-color {
     color: #d39f06
+}
+
+.gravito_color {
+    color: #60bafa; 
 }
 
 .eprezto-color {
@@ -263,8 +267,8 @@ canvas {
 .skill {
     display: inline-block;
     color: #FFF;
-    background-color: #af0000;
-    border: 1px solid #af0000;
+    background-color: #60bafa;
+    border: 1px solid #60bafa;
     padding: 5px 15px;
     margin: 5px;
     text-align: center;
@@ -275,8 +279,8 @@ canvas {
 }
 
 .normal {
-    background-color: #af0000;
-    border: 1px solid #af0000;
+    background-color: #60bafa;
+    border: 1px solid #60bafa;
 }
 
 .special {
@@ -285,8 +289,8 @@ canvas {
 }
 
 .learning {
-    background-color: #7781cc;
-    border: 1px solid #7781cc;
+    background-color: rgba(175, 0, 0, 0.8);
+    border: 1px solid rgba(175, 0, 0, 0.8);
 }
 
 .skill:hover {
@@ -336,7 +340,7 @@ canvas {
 }
 
 .text-red {
-    color: #af0000;
+    color: #60bafa;
 }
 
 .works .card-deck {
@@ -354,7 +358,7 @@ canvas {
 }
 
 .works .card-deck .card-footer a {
-    color: #af0000;
+    color: #60bafa;
 }
 
 .works .features {
@@ -469,7 +473,7 @@ canvas {
 }
 
 .contact .footer-info a {
-    color: #af0000;
+    color: #60bafa;
     text-decoration: underline;
 }
 
@@ -487,7 +491,7 @@ canvas {
 }
 
 .contact .social-media li a {
-    color: #af0000;
+    color: #60bafa;
     text-align: center;
 }
 
