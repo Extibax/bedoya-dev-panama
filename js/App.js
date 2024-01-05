@@ -1,4 +1,5 @@
 $(document).ready(function () {
+	console.log("on init console log")
 
 	/* Muestra el loader view durante 2 segundos para dar 
 	tiempo a la carga del contenido */
@@ -43,7 +44,7 @@ $(document).ready(function () {
 		);
 	});
 
-	$('.nav-item').click(function() {
+	$('.nav-item').click(function () {
 		$('#navbarItems').collapse('hide');
 	});
 
@@ -62,13 +63,22 @@ $(document).ready(function () {
 			email: $('#email').val(),
 			message: $('#message').val()
 		}
-		
+
 		if (fullname && email && message) {
-			$.post('php/email.php', { formData }, (res) => {
+			let host = "localhost"
+
+			host = "gravito-express.onrender.com"
+
+			/* let response = await fetch(``, {
+			method: "POST", mode: "cors", headers: {
+				"Content-Type": "application/json",
+			}, body: JSON.stringify({ userEmail: formDetails?.email || "default@email.com", userBody: formDetails })
+			}); */
+			$.post(`https://${host}/api/send-email`, { formData }, (res) => {
 				if (res == "1") {
 					swal("¡Thank you so much!", "¡I'll responde as soon as I can!", "success");
 					$('#form')[0].reset();
-					
+
 				} else {
 					swal("¡OMG!", "¡Something is wrong with this form, Contact me for other way, Please!", "error");
 				}
